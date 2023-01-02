@@ -10,10 +10,7 @@ const moviesRoutes = require('./routes/moviesRoutes');
 const genresRoutes = require('./routes/genresRoutes');
 const apisRoutesGenre = require('./routes/apis/genreRoutes');
 const apisRoutesMovies = require('./routes/apis/moviesRoutes');
-
-//Aquí pueden colocar las rutas de las APIs
-
-
+q
 // view engine setup
 app.set('views', path.resolve(__dirname, './views'));
 app.set('view engine', 'ejs');
